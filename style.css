@@ -76,8 +76,18 @@ body {
     font-size: 3rem;
 }
 
-.home {
-    height: 30%;
-    width: 10%;
-    padding-top: 2%;
+/*.home {*/
+/*    height: 30%;*/
+/*    width: 10%;*/
+/*    padding-top: 2%;*/
+/*}*/
+
+.fade-out {
+    animation-name: fadeOut;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
 }

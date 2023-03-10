@@ -1,6 +1,10 @@
 const navLinks = document.querySelectorAll("nav a");
 const pages = document.querySelectorAll(".page");
 
+
+navLinks.forEach((link) => {
+    link.addEventListener("click", togglePage);
+});
 function togglePage(event) {
     event.preventDefault();
 
@@ -16,26 +20,15 @@ function togglePage(event) {
     });
 }
 
-navLinks.forEach((link) => {
-    link.addEventListener("click", togglePage);
-});
+const animationDuration = 2.5 * 1000;
 
-// ustawiamy czas trwania animacji i opóźnienie przeniesienia do kolejnej strony
-const animationDuration = 2 * 1000; // 2 sekundy
-const delayBeforeRedirect = 3 * 1000; // 3 sekundy
+document.querySelector("#hello-message").classList.add("fade-out");
 
-// pobieramy element z napisem powitalnym
-const helloMessage = document.getElementById("hello-message").parentNode;
-// ustawiamy animację fade-out dla napisu
+const div = document.querySelector(".start-page")
+const oldItem = div.querySelector("h1");
+const newItem = document.createElement("h1");
+newItem.innerText = "Jestem nowym elementem";
 
 setTimeout(() => {
-    helloMessage.parentNode.removeChild(helloMessage)
+    div.replaceChild(newItem, oldItem);
 }, animationDuration);
-
-
-setTimeout(() => {
-togglePage()
-}, delayBeforeRedirect);
-
-// przekierowujemy użytkownika do strony "About Me" po opóźnieniu
-
