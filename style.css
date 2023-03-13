@@ -28,15 +28,18 @@ nav a {
 }
 
 .page h1 {
-    font-size: 36px;
+    font-size: 48px;
     margin-bottom: 20px;
     color: #483434;
+    font-family: Georgia, serif;
+    font-weight: bold;
 }
 
 .page p {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.5;
     color: #6B4F4F;
+    font-family: Palatino, serif;
 }
 
 .page table {
@@ -65,7 +68,7 @@ nav a {
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Georgia, serif;
     background-color: #FFF3E4;
 }
 
@@ -74,14 +77,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #483434;
-    color: #FFF3E4;
+    background-color: #FFF3E4;
+    color: #483434;
     font-size: 3rem;
 }
 
 .fade-out {
     animation-name: fadeOut;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 

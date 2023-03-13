@@ -1,6 +1,6 @@
 const navLinks = document.querySelectorAll("nav a");
 const pages = document.querySelectorAll(".page");
-const animationDuration = 2.5 * 1000;
+const animationDuration = 3 * 1000;
 
 
 navLinks.forEach((link) => {
