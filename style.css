@@ -3,8 +3,8 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #37306B;
-    color: #fff;
+    background-color: #483434;
+    color: #FFF3E4;
     padding: 10px;
     font-size: 18px;
 }
@@ -18,12 +18,11 @@ nav ul {
 }
 
 nav a {
-    color: #fff;
+    color: #FFF3E4;
     text-decoration: none;
 }
 
 .page {
-    /*margin-top: 70px;*/
     padding: 50px;
     display: none;
 }
@@ -31,11 +30,13 @@ nav a {
 .page h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    color: #483434;
 }
 
 .page p {
     font-size: 18px;
     line-height: 1.5;
+    color: #6B4F4F;
 }
 
 .page table {
@@ -48,24 +49,24 @@ nav a {
 .page td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #9E4784;
+    border-bottom: 1px solid #EEE;
 }
 
 .page th {
-    background-color: #66347F;
-    color: #fff;
+    background-color: #483434;
+    color: #FFF3E4;
 }
 
 .page td {
-    background-color: #D27685;
-    color: #fff;
+    background-color: #EED6C4;
+    color: #483434;
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #C9EEFF;
+    background-color: #FFF3E4;
 }
 
 .start-page {
@@ -73,8 +74,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #37306B;
-    color: #fff;
+    background-color: #483434;
+    color: #FFF3E4;
     font-size: 3rem;
 }
 
@@ -88,7 +89,6 @@ body {
     from {
         opacity: 1;
     }
-
     to {
         opacity: 0;
     }
