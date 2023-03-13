@@ -27,4 +27,5 @@ document.querySelector("#hello-message").classList.add("fade-out");
 const helloStartCV = document.querySelector(".start-page")
 setTimeout(() => {
     helloStartCV.remove();
+    togglePage.call(document.querySelector("nav a[data-target='about-me']"), new Event("click"));
 }, animationDuration);
