@@ -24,11 +24,7 @@ const animationDuration = 2.5 * 1000;
 
 document.querySelector("#hello-message").classList.add("fade-out");
 
-const div = document.querySelector(".start-page")
-const oldItem = div.querySelector("h1");
-const newItem = document.createElement("h1");
-newItem.innerText = "Jestem nowym elementem";
-
+const helloStartCV = document.querySelector(".start-page")
 setTimeout(() => {
-    div.replaceChild(newItem, oldItem);
+    helloStartCV.remove();
 }, animationDuration);

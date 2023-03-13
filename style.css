@@ -23,7 +23,7 @@ nav a {
 }
 
 .page {
-    margin-top: 70px;
+    /*margin-top: 70px;*/
     padding: 50px;
     display: none;
 }
@@ -75,12 +75,6 @@ body {
     color: #000;
     font-size: 3rem;
 }
-
-/*.home {*/
-/*    height: 30%;*/
-/*    width: 10%;*/
-/*    padding-top: 2%;*/
-/*}*/
 
 .fade-out {
     animation-name: fadeOut;
