@@ -23,7 +23,6 @@ nav a {
 }
 
 .page {
-    /*margin-top: 70px;*/
     padding: 50px;
     display: none;
 }
@@ -66,6 +65,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
+
 .start-page {
     height: 100vh;
     display: flex;
@@ -77,9 +77,7 @@ body {
 }
 
 .fade-out {
-    animation-name: fadeOut;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
+    animation: fadeOut 4s forwards;
 }
 @keyframes fadeOut {
     from { opacity: 1; }

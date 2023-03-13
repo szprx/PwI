@@ -1,5 +1,6 @@
 const navLinks = document.querySelectorAll("nav a");
 const pages = document.querySelectorAll(".page");
+const animationDuration = 2.5 * 1000;
 
 
 navLinks.forEach((link) => {
@@ -19,8 +20,6 @@ function togglePage(event) {
         }
     });
 }
-
-const animationDuration = 2.5 * 1000;
 
 document.querySelector("#hello-message").classList.add("fade-out");
 
