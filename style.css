@@ -3,8 +3,8 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #62CDFF;
-    color: #111111;
+    background-color: #37306B;
+    color: #fff;
     padding: 10px;
     font-size: 18px;
 }
@@ -23,21 +23,19 @@ nav a {
 }
 
 .page {
+    /*margin-top: 70px;*/
     padding: 50px;
     display: none;
-    background-color: #C9EEFF;
 }
 
 .page h1 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #111111;
 }
 
 .page p {
     font-size: 18px;
     line-height: 1.5;
-    color: #111111;
 }
 
 .page table {
@@ -50,24 +48,24 @@ nav a {
 .page td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #97DEFF;
+    border-bottom: 1px solid #9E4784;
 }
 
 .page th {
-    background-color: #62CDFF;
+    background-color: #66347F;
     color: #fff;
 }
 
 .page td {
-    background-color: #fff;
-    color: #111;
+    background-color: #D27685;
+    color: #fff;
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #97DEFF;
+    background-color: #C9EEFF;
 }
 
 .start-page {
@@ -75,7 +73,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #62CDFF;
+    background-color: #37306B;
     color: #fff;
     font-size: 3rem;
 }
@@ -87,6 +85,11 @@ body {
 }
 
 @keyframes fadeOut {
-    from { opacity: 1; }
-    to { opacity: 0; }
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
 }
