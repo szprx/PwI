@@ -1,32 +1,48 @@
-header, nav, main, footer {
-    max-width: 800px;
-    margin: 0 auto;
+/* Resetowanie marginesów i wypełnień dla całej strony */
+html, body {
+    margin: 0;
+    padding: 0;
 }
+
+/* Ustawienia dla całej strony */
 body {
     background-color: #1F1D36;
     color: #E9A6A6;
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
+
+/* Ustawienia dla nagłówka strony */
 header {
     display: flex;
-    align-items: flex-start;
-    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
+
+/* Ustawienia dla tytułu strony */
 header h1 {
+    font-size: 48px;
     margin: 0;
-    margin-left: 20px;
+    display: flex;
 }
+
+/* Ustawienia dla nawigacji */
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
+
 nav li {
     margin: 0 10px;
 }
+
 nav a {
     color: #E9A6A6;
     text-decoration: none;
@@ -34,6 +50,29 @@ nav a {
     background-color: #3F3351;
     border-radius: 5px;
 }
+
 nav a:hover {
     background-color: #864879;
+}
+
+/* Ustawienia dla głównego bloku strony */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Ustawienia dla tytułu w bloku głównym */
+main h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Ustawienia dla stopki strony */
+footer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
 }
