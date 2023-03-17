@@ -22,7 +22,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #3F3351;
+    background-color: #1F1D36;
     z-index: 1000;
     text-align: center;
 
@@ -47,13 +47,16 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 80px;
+}
+p{
+    font-size: 1.5rem;
 }
 
 /* Treść */
 
 main {
-    background-color: #864879;
+    background-color: #37306B;
 
     padding: 80px;
     margin-top: 80px;
@@ -62,7 +65,8 @@ main {
 /* Stopka */
 
 footer {
-    background-color: #E9A6A6;
+    background-color: #1F1D36;
+    color:#E9A6A6 ;
     padding: 5px;
     text-align: center;
     font-size: 0.8rem;
@@ -81,4 +85,12 @@ footer {
 .task-link:hover {
     background-color: #fff;
     color: #E9A6A6;
+}
+
+img {
+    border: 1.5px solid black;
+    border-radius: 40px;
+    float: left;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 15px 35px 15px 15px;
 }
